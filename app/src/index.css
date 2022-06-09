@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.navbar li {
+  overflow: hidden;
+  font-size: 18px;
+  list-style: none;
+
+}
+
+.navbar .ul1 {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 2rem;
+  width: 41%;
+  overflow: hidden;
+  top: 1.5rem;
+}
+
+.navbar .ul2 {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  left: 62rem;
+  width: 34%;
+  padding: -14px;
+  top: 1rem;
+}
+
+.show {
+  height: 100vh;
+  width: 4%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: grid;
+  background: white;
+
+}
+
+
+.sidebar {
+  width: 18vw;
+  left: 4rem;
+  top: 8rem;
+  height: 70vh;
+  box-shadow: 1px 0 15px silver;
+  display: inline-block;
+  position: fixed;
+  z-index: 5;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.btn2{
+  position: absolute;
+  width: 347px;
+  height: 70px;
+  top: 36rem;
+}
+
+.sidebar .sidenav {
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  line-height: 24px;
+  font-size: 20px;
+  left: 4rem;
+}
+
+.sidenav a {
+  color: #26384B;
+
+
+}
+
+.close {
+  transform: translateX(-200%);
+}
+
+.main {
+  height: 100vh;
+}
+
+
+.main .img {
+  width: 980px;
+  position: absolute;
+  left: 3.8rem;
+}
+
+
+.main .card {
+  position: absolute;
+  left: 67rem;
+  width: 359px;
+  height: 559px;
+  border-radius: 4px;
+
+}
+
+.main .card .box {
+  width: 313.62px;
+  height: 83.05px;
+  margin: -7px 20px;
+  border-radius: 5px;
+}
+
+.main .card .box .btn2 {
+  width: 357px;
+  height: 60px;
+  position: absolute;
+  top: 36rem;
+  background: rgba(1, 14, 56, 0.1);
+  border-radius: 5px;
+}
+
+.container-fluid {
+  height: 200vh;
+}
+
+.container-fluid .main-content .btn3 {
+  position: absolute;
+  width: 357px;
+  height: 60px;
+  margin-top: -6rem;
+  right: 6%;
+  background: rgba(1, 14, 56, 0.1);
+  border-radius: 5px;
+}
+
+.container-fluid .cards {
+  width: 320px;
+  height: 354px;
+  background: #FFFFFF;
+  text-align: center;
+  margin: 15px -20px 24px 49px;
+  display: inline-block;
+  border-radius: 5px 5px 0px 0px;
+
+
+}
+
+.container-fluid .cards .avatar {
+  width: 319px;
+  height: 225px;
+
+}
+
+.btns {
+  margin-left: 200px;
+  color: white;
+}
+
+.container-fluid .case {
+  text-align: center;
+  margin: 15px -20px 24px 49px;
+  display: inline-block;
+  width: 438px;
+  height: 223px;
+  background: #F7F7F7;
+  border-radius: 5px;
+}
+
+.photo-news {
+  height: 100vh;
+  display: flex;
+}
+
+
+.photo-news .img-wrapper .photo {
+  width: 677px;
+  height: 555px;
+  position: relative;
+  left: 3.2rem;
+  margin: 10px;
+  top: 6rem;
+}
+
+.btn4 {
+  cursor: pointer;
+  position: absolute;
+  width: 357px;
+  height: 60px;
+  left: 67rem;
+
+  background: rgba(1, 14, 56, 0.1);
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper .wrapper-fluid {
+  height: 332px;
+  background: white;
+  left: 4rem;
+  position: relative;
+  margin: 9px 25px 10px -2px;
+  width: 441px;
+
+}
+
+.wrapper .wrapper-fluid .portret {
+  width: 441px;
+  height: 222px;
+}
+
+.content {
+  height: 100vh;
+  background: #181A1B;
+}
+
+.content .btn5 {
+  position: absolute;
+  width: 440px;
+  height: 50px;
+  left: 62rem;
+  background: #2F3031;
+  color: #FFFFFF;
+}
+
+.content .chest {
+
+  width: 439px;
+  background: #21242A;
+  border-radius: 5px;
+  height: 575px;
+  position: absolute;
+  left: 62rem;
+  margin-top: 5rem;
+
+}
+
+.content-fluid .picture {
+  width: 900px;
+  margin: 80px 0px 0px 62px;
+}
+
+
+
+
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background: rgb(26, 43, 99);
+  background: radial-gradient(circle, rgba(26, 43, 99, 1) 58%, rgba(4, 17, 61, 1) 97%);
+}
+
+.footer .btn6 {
+  width: 200px;
+  position: absolute;
+  left: 66rem;
+  margin-top: 4rem;
+  font-size: 20px;
+}
+
+.footer .btn7 {
+  width: 200px;
+  position: absolute;
+  left: 51rem;
+  margin-top: 4rem;
+  font-size: 20px;
+}
+
+.footer-fluid {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-fluid .pic1 {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 3rem;
+  width: 41%;
+  overflow: hidden;
+
+}
+
+.footer-fluid .pic2 {
+  display: flex;
+  width: 22%;
+  justify-content: space-around;
+  position: absolute;
+  right: 10%;
+  font-size: 27px;
+}
